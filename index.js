@@ -5,7 +5,11 @@ var app = express();
 // This responds with "Hello World" on the homepage
 app.get('/', function (req, res) {
    console.log("Got a GET request for the homepage");
+<<<<<<< HEAD
    const userCount = 10;
+=======
+   const userCount = Math.ceil(Math.random() * 100);
+>>>>>>> 2ndfeature
    res.send(`Hello GET. Users are: ${userCount}`);
 })
 

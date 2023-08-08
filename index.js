@@ -6,11 +6,15 @@ var app = express();
 app.get('/', function (req, res) {
    console.log("Got a GET request for the homepage");
 <<<<<<< HEAD
+<<<<<<< HEAD
    const userCount = 10;
 =======
    const userCount = Math.ceil(Math.random() * 100);
 >>>>>>> 2ndfeature
    res.send(`Hello GET. Users are: ${userCount}`);
+=======
+   res.send('Hello GET');
+>>>>>>> parent of deafff3... 1stfeature
 })
 
 
